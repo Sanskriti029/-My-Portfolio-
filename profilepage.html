@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanskriti - Student Portfolio</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-animation"></div>
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <nav>
+        <div class="logo">Sanskriti</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
+                    <div class="theme-toggle-slider">🌙</div>
+                </button>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Sanskriti Khandelwal</h1>
+            <p class="tagline">Computer Science Student & Aspiring Developer</p>
+            <p class="year">🎓 Second Year College Student</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="scroll-indicator"></div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>Hey there! 👋 I'm a second-year computer science student with a passion for creating innovative solutions and learning new technologies every day.</p>
+                <p>My journey in tech started with curiosity and has grown into a genuine love for problem-solving through code. I'm constantly exploring new frameworks, building projects, and collaborating with fellow developers.</p>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-image">
+                <div class="profile-image-inner"><img src="profile.jpg" style="width: 180px; height: 180px;" alt="Profile Picture"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skills-category">
+                <h3 class="category-title">
+                    <span class="category-icon">💻</span>
+                    Programming Languages
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon">🐍</div>
+                            <div>
+                                <div class="skill-name">Python</div>
+                                <div class="skill-level">Intermediate</div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon">☕</div>
+                            <div>
+                                <div class="skill-name">Java</div>
+                                <div class="skill-level">Intermediate</div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon">⚡</div>
+                            <div>
+                                <div class="skill-name">JavaScript</div>
+                                <div class="skill-level">Intermediate</div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon">++</div>
+                            <div>
+                                <div class="skill-name">C++</div>
+                                <div class="skill-level">Beginner</div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 60%"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3 class="category-title">
+                    <span class="category-icon">🎨</span>
+                    Web Development
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon">🌐</div>
+                            <div>
+                                <div class="skill-name">HTML/CSS</div>
+                                <div class="skill-level">Advanced</div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon">⚛️</div>
+                            <div>
+                                <div class="skill-name">React</div>
+                                <div class="skill-level">Intermediate</div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 30%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon">🟢</div>
+                            <div>
+                                <div class="skill-name">Node.js</div>
+                                <div class="skill-level">Beginner</div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 30%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h3 class="category-title">
+                    <span class="category-icon">🛠️</span>
+                    Tools & Technologies
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon">🐙</div>
+                            <div>
+                                <div class="skill-name">Git & GitHub</div>
+                                <div class="skill-level">Intermediate</div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon">💾</div>
+                            <div>
+                                <div class="skill-name">SQL</div>
+                                <div class="skill-level">Beginner</div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon">🎯</div>
+                            <div>
+                                <div class="skill-name">VS Code</div>
+                                <div class="skill-level">Advanced</div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">🎮</div>
+                <div class="project-content">
+                    <h3>CGPA Analyzer</h3>
+                    <p>A web application that helps students calculate and analyze their CGPA based on their semester grades. It provides insights and suggestions for improvement.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">PHP</span>
+                    </div>
+                    <!-- <a href="#" class="project-link">View Project →</a> -->
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">📱</div>
+                <div class="project-content">
+                    <h3>A.W.A.R.E - Artificial Waste and Recycling Engine</h3>
+                    <p>A web application that aims to promote recycling and waste management by providing users with information and resources on how to recycle effectively.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Machine learning</span>
+                        <span class="tag">Python</span>
+
+                    </div>
+                    <!-- <a href="#" class="project-link">View Project →</a> -->
+                </div>
+            </div>
+            <!-- <div class="project-card">
+                <div class="project-image">🤖</div>
+                <div class="project-content">
+                    <h3>AI Chatbot</h3>
+                    <p>An intelligent chatbot using natural language processing to answer questions and provide assistance. Implemented with Python and machine learning libraries.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">NLP</span>
+                        <span class="tag">Flask</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">🎵</div>
+                <div class="project-content">
+                    <h3>Music Player</h3>
+                    <p>A sleek music player interface with playlist management, shuffle, repeat functions, and a beautiful visualizer.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Web Audio API</span>
+                        <span class="tag">CSS3</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">📊</div>
+                <div class="project-content">
+                    <h3>Data Visualizer</h3>
+                    <p>Interactive data visualization dashboard for analyzing trends and patterns. Features multiple chart types and real-time updates.</p>
+                    <div class="project-tags">
+                        <span class="tag">D3.js</span>
+                        <span class="tag">React</span>
+                        <span class="tag">API</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">🌤️</div>
+                <div class="project-content">
+                    <h3>Weather App</h3>
+                    <p>A beautiful weather application showing current conditions, forecasts, and location-based weather data using external APIs.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">API Integration</span>
+                        <span class="tag">UI/UX</span>
+                    </div>
+                    <a href="#" class="project-link">View Project →</a>
+                </div>
+            </div>
+        </div> -->
+    </section> 
+
+    <section id="contact">
+        <h2>Let's Connect!</h2>
+        <div class="contact-container">
+            <form class="contact-form" onsubmit="handleSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Let's work together on something amazing!" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message 🚀</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sanskriti | Second Year CS Student 🎓</p>
+        <p style="margin-top: 0.5rem; opacity: 0.8;">Always learning, always growing 🌱</p>
+        <div class="social-links">
+            <a href="mailto:sanskriti.24bce11025@vitbhopal.ac.in"class="social-link"><span><img src="icons8-email-open-32.png" style="width: 50px; height: 50px;border-radius: 35px; background-color: white;"alt="github"></span></a>
+
+            <a href="https://github.com/Sanskriti029" class="social-link"><span><img src="icons8-github-logo-48.png" style="width: 50px; height: 50px;border-radius: 35px ;"alt="github"></span></a>
+
+            <a href="http://linkedin.com" class="social-link"><span><img src="icons8-linkedin-48.png" style="width: 50px; height: 50px;border-radius: 35px ;"alt="linkedin"></span></a>
+          
+            
+           <!-- <a href="http://google.com" class="social-link"><span>🐦</span></a> -->
+            
+        </div>
+    </footer>
+
+    <script src="script1.js"></script>
+</body>
+</html>
